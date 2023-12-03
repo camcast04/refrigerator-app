@@ -1,0 +1,59 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 390px;
+}
+
+.modal form {
+  padding: 50px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal input {
+  background-color: #eff0f5;
+  border: 1px solid #ccc;
+  color: #616060;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.submit-button {
+  background-color: #8f7ef0;
+  font-size: 30px;
+  color: white;
+  border: none;
+  padding: 7px 40px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+  outline: none;
+  margin: 0 10px;
+}
+
+.cancel-button:hover,
+.submit-button:hover {
+  background-color: #7164c0;
+}

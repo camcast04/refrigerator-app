@@ -1,0 +1,73 @@
+.side-panel {
+  width: 250px;
+  background-color: #2c324c;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-initials {
+  font-size: 1.5em;
+  color: #2c324c; /* Dark blue text for contrast */
+}
+
+.user-name {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.alerts h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.alert-dot {
+  font-size: 60px;
+  color: #9a7ef0;
+  line-height: 2rem;
+}
+
+.alert {
+  background-color: #41465e; /* Notification background color */
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.alert-expiry {
+  border-left: solid 0.2rem #aa921c;
+}
+
+.alert-expired {
+  border-left: 4px solid #ff3562;
+}
+
+.alert-lowStock {
+  border-left: 4px solid #5bd9f8;
+}
